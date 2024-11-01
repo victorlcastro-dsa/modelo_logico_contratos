@@ -61,6 +61,7 @@ const logicalData1 = {
         { key: 1, name: "Contrato", loc: "0 0", attributes: [
             { name: "contrato_id", type: "INT", modifier: "<<PK>>" },
             { name: "analista_id", type: "INT", modifier: "<<FK>>" },
+            { name: "orgao_id", type: "INT", modifier: "<<FK>>" },
             { name: "status", type: "CHAR", modifier: "" },
             { name: "data_inicio", type: "DATE", modifier: "" },
             { name: "data_fim", type: "DATE", modifier: "" },
