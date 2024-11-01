@@ -50,7 +50,7 @@ function createDiagram(containerId, modelData) {
 
     // Define o zoom inicial e a posição após o diagrama ser carregado
     diagram.addDiagramListener("InitialLayoutCompleted", function() {
-        diagram.scale = 1; // Define o zoom para 100%
+        diagram.scale = 0.9; // Define o zoom para 100%
         diagram.position = new go.Point(-200, -100); // Posiciona no ponto (-200, -100) para centralizar o layout
     });
 }

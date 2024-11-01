@@ -6,14 +6,22 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
 }
 
 /* Estilo para barras superior e inferior */
 .barra-topo,
 .barra-inferior {
     width: 100%;
-    height: 5px;
+    height: 3px;
     background-color: #3b82f6;
+    margin: 0;
+}
+
+.barra-inferior {
+    margin-top: auto;
 }
 
 /* Título principal */
@@ -30,8 +38,8 @@ h1 {
     border: 1px solid #3b82f6;
     border-radius: 5px;
     background-color: #ffffff;
-    max-width: 800px;
-    height: 600px;
+    width: 60%;
+    height: 700px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -39,7 +47,7 @@ h1 {
 /* Estilo dos diagramas */
 .diagram {
     width: 100%;
-    height: 500px;
+    height: 600px;
     border: 1px solid #ddd;
 }
 
@@ -47,6 +55,9 @@ h1 {
 @media (max-width: 768px) {
     h1 {
         font-size: 1.5em;
+    }
+    .diagram-container {
+        width: 80%;
     }
     .diagram {
         height: 530px;
@@ -56,6 +67,9 @@ h1 {
 @media (max-width: 480px) {
     h1 {
         font-size: 1.2em;
+    }
+    .diagram-container {
+        width: 80%;
     }
     .diagram {
         height: 250px;
