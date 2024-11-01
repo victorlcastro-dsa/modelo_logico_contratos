@@ -58,6 +58,6 @@ As tabelas e relações no modelo lógico seguem a estrutura descrita acima para
 1. Clone o repositório e abra `index.html` para visualizar o diagrama e os dados.
 2. Modifique `scripts.js` para ajustar a estrutura de dados ou `styles.css` para alterar o estilo.
 
-- Ou acesse o link: [Modelo Lógico de Dados: Gerenciamento de Contratos]()
+- Ou acesse o link: [Modelo Lógico de Dados: Gerenciamento de Contratos](https://victorlcastro-dsa.github.io/modelo_logico_contratos/)
 
 ---
