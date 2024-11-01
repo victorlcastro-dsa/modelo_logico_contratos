@@ -1,0 +1,63 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para barras superior e inferior */
+.barra-topo,
+.barra-inferior {
+    width: 100%;
+    height: 5px;
+    background-color: #3b82f6;
+}
+
+/* Título principal */
+h1 {
+    color: #3b82f6;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+/* Contêiner dos diagramas */
+.diagram-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #3b82f6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos diagramas */
+.diagram {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .diagram {
+        height: 530px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    .diagram {
+        height: 250px;
+    }
+}
